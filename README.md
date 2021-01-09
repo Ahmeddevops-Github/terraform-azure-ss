@@ -5,7 +5,7 @@
 
 ```
 module "ss" {
-    source                  = "../"
+    source                  = "Ahmeddevops-Github/ss/azure"
     resource_group_name     = "example-resources"
     resource_group_location = "West Europe"
     ss_name                 = "example-ss"
@@ -28,3 +28,4 @@ module "ss" {
 ```
 Ahmed Aboagye
 ```
+
